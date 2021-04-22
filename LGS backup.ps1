@@ -15,8 +15,8 @@ $BackupFolderName = "$CurrentDate - BACKUP"
 # Concatenating the current script folder and the backup folder name
 $BackupFolder = ".\$BackupFolderName"
 
-# Create the backup folder
-New-Item -ItemType directory -Path $BackupFolder
+# Create the backup folder. Assigned to null for no output strings
+$null = New-Item -ItemType directory -Path $BackupFolder
 
 $LogitechFolder = "C:\Users\$env:UserName\AppData\Local\Logitech\Logitech Gaming Software"
 
