@@ -7,14 +7,11 @@ Just double click the executable - available at releases - to run. What it does:
 - Copy the profiles xml files located on Logitech folder
 - Also copy the settings JSON 
 
-***
 
 ## Contact
 **Thales Pinto** (@ThalesORP)
 *ThalesORP@gmail.com*
 
-***
 
 ## License
-
 Distributed under the *GNU General Public License v3.0*. See `` LICENSE`` for more information.
