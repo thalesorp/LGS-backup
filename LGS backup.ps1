@@ -13,7 +13,7 @@ $CurrentDate = "$(Get-Date -Format yyyy-MM-dd)"
 $BackupFolderName = "$CurrentDate - BACKUP"
 
 # Concatenating the current script folder and the backup folder name
-$BackupFolder = "$PSScriptRoot\$BackupFolderName"
+$BackupFolder = ".\$BackupFolderName"
 
 # Create the backup folder
 New-Item -ItemType directory -Path $BackupFolder
